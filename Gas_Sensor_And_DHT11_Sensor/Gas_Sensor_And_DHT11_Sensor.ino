@@ -179,14 +179,14 @@ void drawDashboardStaticUI() {
   tft.print("TEMP 'C");
 
   tft.fillRoundRect(270, 60, 190, 90, 8, DARK_GREY);
-  tft.setTextColor(LIGHT_GREY, DARK_GREY);
+  tft.setTextColor(TFT_YELLOW, DARK_GREY);
   tft.setCursor(285, 75);
   tft.print("HUMIDITY");
   tft.setCursor(415, 115);
   tft.print("%");
 
   tft.fillRoundRect(270, 170, 190, 120, 8, DARK_GREY);
-  tft.setTextColor(LIGHT_GREY, DARK_GREY);
+  tft.setTextColor(TFT_ORANGE, DARK_GREY);
   tft.setCursor(285, 185);
   tft.print("GAS LEVEL");
   tft.drawRect(285, 260, 160, 15, LIGHT_GREY);
